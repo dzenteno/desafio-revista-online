@@ -2,8 +2,30 @@ body, ul {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: monospace;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 .navigation {
@@ -313,6 +335,30 @@ input:checked ~ .navigation__menu {
   .col-lg-1 {
     grid-column: span 1;
   }
+}
+.item {
+  border: 1px solid black;
+  font-family: monospace;
+  font-size: 3rem;
+  background-color: gold;
+}
+
+.content__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 20px;
+}
+
+.item-1 {
+  grid-column: span 4;
+}
+
+.item-2 {
+  grid-column: span 3;
+}
+
+.item-3 {
+  grid-column: span 2;
 }
 
 /*# sourceMappingURL=style.css.map */
